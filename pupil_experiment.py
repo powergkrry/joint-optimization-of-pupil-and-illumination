@@ -58,7 +58,7 @@ model.summary()
 model.fit(x_train, y_train,
           batch_size=config.batch_size,
           epochs=config.epochs,
-          verbose=0,
+          verbose=2,
           validation_data=(x_test, y_test),
           callbacks=[PupilConstraintsEndCallback(my_pupil)])
 score = model.evaluate(x_test, y_test, verbose=0)
