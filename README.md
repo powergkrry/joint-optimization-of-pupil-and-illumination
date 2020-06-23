@@ -7,6 +7,10 @@
 ```bash
 conda env create -f environment.yml
 ```
+
+### Download data
+Download the data from here and move it to project directory
+
 ## Experiement
 Digital-only optimization
 ```bash
