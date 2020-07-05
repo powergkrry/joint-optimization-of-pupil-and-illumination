@@ -1,4 +1,4 @@
-# joint-optimization-of-pupil-and-illumination
+# Multi-element microscope optimization by a learned sensing network with composite physical layers
 
 ## Getting started
 ### Git clone
