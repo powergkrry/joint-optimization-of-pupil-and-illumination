@@ -9,7 +9,7 @@ conda env create -f environment.yml
 ```
 
 ### Download data
-Download the data from here and move it to project directory
+Download the data from [here](https://figshare.com/articles/dataset/pupil-and-illumination/12777542) and move it to project directory
 
 ## Experiement
 Digital-only optimization
