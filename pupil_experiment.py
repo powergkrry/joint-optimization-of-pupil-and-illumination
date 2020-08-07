@@ -52,7 +52,7 @@ def main():
     outputs = Dense(2, activation='softmax')(x)
 
     model = Model(inputs=[inputs], outputs=[outputs])
-    opt = keras.optimizers.Adam(learning_rate=0.001)
+    opt = keras.optimizers.Adam(learning_rate=config.init_lr)
     model.compile(optimizer=opt, loss='binary_crossentropy', metrics=['accuracy'])
     model.summary()
 
